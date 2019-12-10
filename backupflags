@@ -1,0 +1,24 @@
+    // if (frontRotating) { 
+    //     rotationDirection == 'clockwise' ? 
+    //         (
+    //             cube[1][1][1].rotation.z += angle
+    //         ) : 
+    //         (
+    //             cube[1][1][1].rotation.z -= angle
+    //         ); 
+    // }
+    // if (rubiksIsRotatingY) { 
+    //     rotationDirection == 'clockwise' ? 
+    //         rubiksGroup.rotation.y += angle : 
+    //         rubiksGroup.rotation.y -= angle; 
+    // }
+    // if (rubiksIsRotatingX) { 
+    //     rotationDirection == 'clockwise' ? 
+    //         rubiksGroup.rotation.x += angle : 
+    //         rubiksGroup.rotation.x -= angle; 
+    // }
+    // if (rubiksIsRotatingZ) { 
+    //     rotationDirection == 'clockwise' ? 
+    //         rubiksGroup.rotation.z += angle : 
+    //         rubiksGroup.rotation.z -= angle; 
+    // }
