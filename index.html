@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,15 @@
     <script src="./libs/three.js/controls/OrbitControls.js"></script>
     <script src="./libs/keyframe.js/keyframe.js"></script>
     <script src="./libs/three.js/utils/SceneUtils.js"></script>
+    <script src="./main.js"></script>
     <script src="./rubiks.js"></script>
+    <script src="./pivotSquare.js"></script>
+    <script src="./keyFrameStartKit.js"></script>
+    <script src="./pivotGrouping.js"></script>
+    <script src='./rotations.js'></script>
+    <script src='./eventListeners.js'></script>
+    <script src='./rubiksFacesMaterials.js'></script>
+    <script src='./sceneConfiguration.js'></script>
     <script type="text/javascript">
         $(document).ready(
             function () {
@@ -23,11 +30,9 @@
         );
     </script>
 </head>
-
 <body>
     <!-- <button id='shuffleBtn'>SHUFFLE</button>
     <button id="undoBtn">UNDO</button> -->
     <canvas id='webglcanvas'></canvas>
 </body>
-
 </html>
